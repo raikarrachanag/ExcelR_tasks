@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title> EXCELR </title>
+  
+  </head>
+ <body>
+  <h1><FONT SIZE=28> Animals </FONT></h1>
+
+  <h3> Animals are multicellular, eukaryotic organisms in the biological kingdom Animalia. With few exceptions, <br> animals consume organic material, breathe oxygen, are able to move , <br> can reproduce sexually, and grow from a hallow sphere of cells, the blastula, during embryonic development.</h3>
+<hr>
+<ol>
+<li> Tiger </li>
+<li> Lion </li>
+<li> Elephant </li>
+</ol>
+<ul>
+<li> Cat </li>
+<li> Dog </li>
+<li> Cow </li>
+</ul>
+
+<hr>
+
+<table>
+<tr>
+<th><B>Sl.no</B></th>
+<th><B>WILD ANIMALS</B></th>
+<th><B>DOMESTIC ANIMALS</B></th>
+</tr>
+<tr>
+<td><B>1</B></td>
+<td><B>Tiger</B></td>
+<td><B>Cat</B></td>
+</tr>
+<tr>
+<td><B>2</B></td>
+<td><B>Lion</B></td>
+<td><B>Dog</B></td>
+</tr>
+<tr>
+<td><B>3</B></td>
+<td><B>Elephant</B></td>
+<td><B>cow</B></td>
+</tr>
+<hr>
+<ol start =5>
+<li>Module 1
+<ul>
+<li>Topic 1</li>
+<li>Topic 2</li>
+</ul>
+</li>
+<li>Module 2
+<ul>
+<li>Topic 3</li>
+<li>Topic 4</li>
+<li>Topic 5</li>
+</ul>
+</li>
+<li>Module 3</li>
+</ol>
+
+
+ </body>
+</html>

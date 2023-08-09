@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website setting in different themes </title>
+    <link rel="stylesheet" href="styles.css">
+
+<!-- using boostrap -->
+    <link href="C:/Users/DELL/Desktop/ExcelR Doc/frontend/CSS/bootstrap CSS Framework/bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- using font-awesome -->
+    <link rel="stylesheet" href="C:\Users\DELL\Desktop\ExcelR Doc\frontend\javascript\Light and Dark theme(portfolio)\Assignment2.css">
+
+
+
+</head>
+<body>
+
+    <div class="hero">
+        <nav>
+            <img src="./images for portfolio website/download.jfif" class="logo">
+            <ul>
+                <!-- redirecting pages -->
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">HIRE ME</a></li>
+            </ul>
+
+            <img src="./images for portfolio website/last-quarte-phase-moon_318-824.avif" id="icon" style="
+            width: 50px;
+            height: 100px;
+        ">
+        </nav>
+
+        <div class="info content">
+            <h1>I'm <span>Rachana G Raikar</span> </h1>
+            <p>This is website called portfolio that shows excellent UI AND UX DESIGN</p>
+            <a href="">Download CV</a>
+            
+        </div>
+
+    </div>
+    
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function(){
+            // onclick function to intialize the themes to black and white
+            document.body.classList.toggle('dark-theme');
+            if(document.body.classList.contains('dark-theme')){
+// condition setting for if the condition is true then executes block otherwise else part
+
+                icon.src ="./images for portfolio website/download.jfif";
+            }
+            else{
+                icon.src = "./images for portfolio website/last-quarte-phase-moon_318-824.avif" ;
+            }
+        }
+    </script>
+</body>
+</html>

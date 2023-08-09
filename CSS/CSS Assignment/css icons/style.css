@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+}
+h1{
+    border-bottom: 2px dotted black;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+div{
+    font-weight: 800;
+}
+div.a{
+    font-style: italic;
+    font-size: inherit;
+    font-size: 4,8vh;
+}
+div.b{
+    font-style: inherit;
+    font-weight: lighter;
+    font-size: 39px;
+}
+p.normal {
+    font-weight: normal;
+    }
+    p.light {
+    font-weight: lighter;
+    }
+    p.thick {
+    font-weight: bold;
+    }
+    p.thicker {
+    font-weight: 900;
+    }

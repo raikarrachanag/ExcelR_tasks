@@ -1,0 +1,25 @@
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+<label for="fname">First Name:</label><br>
+<input type="test"id="fname" name="fname"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname"><br><br>
+</fieldset>
+<br>
+<fieldset>
+<legend>point of contact info</legend>
+<label for="mobno">Mobile No</label><br>
+<input type="no"id="mobno" name="mobno"><br>
+<label for="email">Email ID</label><br>
+<input type="email" id="email" name="email"><br><br>
+</fieldset>
+<fieldset>
+<legend>Address</legend>
+<label for="add">Residential Address</label><br>
+<input type="addr"id="add" name="add"><br>
+<label for="altAdd">Alternate address</label><br>
+<input type="Altadd" id="altAdd" name="altAdd"><br><br>
+</fieldset>
+<input type="submit" value="submit">
+</form>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch images</title>
+
+    <link rel="stylesheet" href="C:\Users\DELL\Desktop\ExcelR Doc\frontend\javascript\Image Gallery\Assignment3.css">
+</head>
+<body>
+    <div id="preloader"></div>
+    <h1 style="text-align: center; margin: 30px;">Check Your Favorite Shirt</h1>
+    <div class="product">
+        <div class="product-small-image">
+            <img src="https://media.istockphoto.com/id/584479824/photo/blue-jean-shirt-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=_yZ_NkKcn_P-eFVlqtB2RsAx8A9sFEQIjSU_xTwIFdY=" alt="" onclick="changeImage(this)">
+            <img src="https://media.istockphoto.com/id/477636330/photo/blue-denim-shirt-with-a-white-background.jpg?s=612x612&w=is&k=20&c=YY6f06OxfWZJ8NE5M-Mqk025qa0voB4GmmF8aVl2lnE=" alt="" onclick="changeImage(this)">
+            <img src="https://media.istockphoto.com/id/488160017/photo/mens-shirt.jpg?s=1024x1024&w=is&k=20&c=GR3hlebeTdvaiPaM4MjM21_p8ZFI5yU_0OXXtSbbojk=" alt="" onclick="changeImage(this)">
+            <img src="https://media.istockphoto.com/id/914144730/photo/blue-jean-shirt-isolated-on-black-background.jpg?s=612x612&w=is&k=20&c=OjqTChU6lcAp04m6iXCTdoycwPuNTYJ5wBPPBcNcwPA=" alt="" onclick="changeImage(this)">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6KU5LNglOuFMZOyCja2D7_4Fcxk7cb-0SM6tr6bKlIX0LJ2ULK3P4jeee25zK4WxxWAo&usqp=CAU" alt="" onclick="changeImage(this)">
+        </div>
+
+        <div class="image-container">
+            <img src="https://media.istockphoto.com/id/584479824/photo/blue-jean-shirt-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=_yZ_NkKcn_P-eFVlqtB2RsAx8A9sFEQIjSU_xTwIFdY=" alt="" id="image-box">
+        </div>
+    </div>
+
+    <script>
+        function changeImage(smallImage){
+            var fullImage = document.getElementById('image-box');
+            fullImage.src = smallImage.src;  
+        }
+    </script>
+
+    <script>
+        let loader = document.getElementById('preloader');
+        window.addEventListener('load', (load)=>{
+            window.removeEventListener("load", load,false);
+            setTimeout(function () {
+                loader.style.display = 'none';
+            },3000);
+        },false);
+    </script>
+</body>
+</html>

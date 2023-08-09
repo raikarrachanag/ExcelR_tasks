@@ -1,0 +1,37 @@
+.container{
+    border: 8px solid black;
+  
+
+}
+.row{
+    border: 5px solid red;
+}
+.col{
+    border:3px solid blue;
+}
+body{
+    background:skyblue;
+}
+#header{
+  background: orange;
+}
+#menu{
+    background:lightgreen;
+    padding: 3px 10px;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#content{
+    background: whitesmoke;
+}
+#sidebar{
+    background: lightblue;
+}
+#footer{
+    background: pink;
+}

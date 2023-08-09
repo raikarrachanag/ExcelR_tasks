@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rancho', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4{
+    font-size: 20px;
+    color: #000;
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+section{
+    padding: 40px 80px;
+    margin: 20px 0;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    margin-top: 0;
+    position: sticky;
+    margin-left: 0;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#nav-bar li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+#nav-bar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3 ease;
+}
+
+
+#nav-bar li a:hover, #nav-bar li a.active{
+    color: green;
+}
+
+#content{
+    background-image: url("https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-hipster-lambersexual-model-sexy-man-dressed-tshirt-jeans-fashion-male-isolated-blue-wall-studio_158538-26727.jpg?w=2000");
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+#content h4{
+    
+    padding-bottom: 15px;
+}
+
+#content h1{
+   
+    color: green;
+}
+
+#content button{
+    background-color: #ECCDB4;
+    color: green;
+    border: 0;
+    border-radius: 18px;
+    padding: 14px 50px 14px 35px;
+    font-size: 25px;
+}
+
+#feature{
+   
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#product1{
+    
+    text-align: center;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid white;
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.2);
+    margin: 15px 0;
+
+    transition: 0.2s ease;
+}
+
+#product1 .pro img:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}

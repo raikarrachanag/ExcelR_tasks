@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="TE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<a href="https://www.youtube.com/">
+click here!
+</a>
+<br>
+<a href="https://www.instagram.com/">
+click here for second link
+</a>
+<hr>
+
+
+<a href="mailto:rachanagraikar@gmail.com">Hi</a>
+</body>
+</html>

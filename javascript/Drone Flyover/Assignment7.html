@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\DELL\Desktop\ExcelR Doc\frontend\javascript\Drone Flyover\Assignment7.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="banner">
+        <div id="drone-box">
+            <img src="https://png.pngtree.com/png-clipart/20220921/ourmid/pngtree-drone-flying-on-transparent-background-png-image_6209864.png" class="drone-pic">
+            <img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/08688e623124cfc50dcef764a2adc978/large.png" class="left-wings">
+            <img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/08688e623124cfc50dcef764a2adc978/large.png" class="right-wings">
+        </div>
+    </div>
+
+    <script>
+        $('#banner').mousemove((e) => {
+            let moveX = (e.pageX * -1/2) + 300;
+            let moveY = (e.pageX * -1/3) + 120;
+            $('#drone-box').css({
+                'transform': 'translate3d('+moveX+'px,'+moveY+'px,0)'
+            });
+        });
+    </script>
+</body>
+</html>

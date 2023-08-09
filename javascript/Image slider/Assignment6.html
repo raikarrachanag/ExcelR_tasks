@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Image background</title>
+    <link rel="stylesheet" href="C:\Users\DELL\Desktop\ExcelR Doc\frontend\javascript\Image slider\Assignment6.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-box">
+            <img src="https://img.freepik.com/premium-photo/red-premium-business-sedan-car-sports-configuration-white-background-3d-rendering_101266-26555.jpg?w=2000" width="100%">
+            <div class="image-wrap">
+                <img src="https://wallpapers.com/images/hd/hybrid-car-2000-x-1125-wallpaper-xy3fnu5yk9mbq3q9.jpg" id="original-img">
+            </div>
+            <span id="line"><img src="https://logowik.com/content/uploads/images/556_arrowright.jpg"  class="arrow"></span>
+        </div>
+    </div>
+    <script>
+        let imageBox = document.querySelector(".image-box"); // The transparent car image
+        let imageWrap = document.querySelector(".image-wrap"); // The original image
+        let originalImg = document.getElementById("original-img");
+        let line = document.getElementById("line");
+        originalImg.style.width = imageBox.offsetWidth + "px";
+        let leftSpace = imageBox.offsetLeft;
+
+
+        imageBox.onmousemove = (e) => {
+           let imageBoxWidth = (e.pageX - leftSpace) + "px";
+           imageWrap.style.width = imageBoxWidth;
+           line.style.left = imageBoxWidth;
+        }
+    </script>
+</body>
+</html>

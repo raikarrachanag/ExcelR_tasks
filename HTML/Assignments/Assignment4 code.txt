@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExcelR Assignment 4</title>
+    
+</head>
+<body>
+    
+    <!-- nav bar -->
+
+    <table border="0" width="100%" cellspacing="0" bgcolor="#ffc0cb">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellspacing="15px" align="center">
+                    <tr> 
+                        <td>
+                            <font face="Lucida Calligraphy" size="5" color="#00008B"><strong>Rachana G Raikar</strong></font>
+                        </td>
+
+                        <td width="20%"></td>
+                        
+
+                        <td><a href="#Home"><font color="Brown" size="4">Home</font></a></td>
+                        <td><a href="#Services"><font color="Brown" size="4">Services</font></a></td>
+                        <td><a href="#Skills"><font color="Brown" size="4">Skills</font></a></td>
+                        <td><a href="#Team"><font color="Brown" size="4">Team</font></a></td>
+                        <td><a href="#Contact"><font color="Brown" size="4">Contact me</font></a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Home -->
+
+    <table>
+        <tr>
+            <td>
+                <table id= Home border="0" width="85%" cellspacing="15px" align="center">
+                    <tr>
+                        <td>
+                            <h1> <font face="Open Sans" size="8">Hi,</font></h1>
+                            <h1> <font face="Open Sans" size="7">I'm Fascinating</font></h1>
+                            <p><font size="3">I am a Computer Science Student, Seeking a career that is challenging and interesting, and looking for an opportunity in a 
+                                reputed organization, where I can upgrade and utilize my knowledge and skills in the field of software engineering.
+                                 </font></p>
+                            <hr>
+                            <button>Download Resume</button>
+                            <button>Hire me</button>
+                        </td>
+                        <td>
+                            <img src="data:image/jpeg;base64,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" alt="professional" height="500px">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Services -->
+
+    <table width="100%" bgcolor="#FFFFFF">
+        <tr>
+            <td>
+                <br><br><br> <br>
+                <table id= Services border="0" width="85%" cellspacing="15px" align="center">
+                    <tr align="center">
+                        <td colspan="3">
+                            <b><font face="Open sans" size="6">Services</font></b> <br>
+                            <hr align="center" width="10%">
+                            <font face="Open Sans" size="2">These are our Services</font> <br>
+                        </td>
+                    </tr> 
+                    <tr align="center">
+                        <td>
+                            <img src="https://static.vecteezy.com/system/resources/previews/006/430/483/non_2x/flat-app-development-icon-app-coding-and-app-settings-concept-vector.jpg" alt="apps" width="15%"> <br> <br>
+                            <font size="5">App Development</font><br>
+                            <font size="3">An app developer is a software developer who specializes in creating mobile applications. Mobile apps are designed to run on smartphones, tablets, or other mobile devices and are typically available through app stores or other distribution channels. App developers may work on a variety of platforms, such as Android or iOS, and may use a variety of programming languages and tools.</font>
+                        </td>
+                        <td>
+                            <img src="https://static-00.iconduck.com/assets.00/digital-marketing-icon-512x475-fyi8ld7w.png" alt="Digital" width="15%"> <br> <br>
+                            <font size="5">Digital Marketing</font><br>
+                            <font size="3">Digital Marketing, also called online marketing, is the promotion of brands to connect with potential customers using the internet and other forms of digital communication. This includes not only email, social media, and web-based advertising, but also text and multimedia messages as a marketing channel.</font>
+                        </td>
+                        <td>
+                            <img src="https://cdn-icons-png.flaticon.com/512/2210/2210153.png" alt="web" width="14%"> <br> <br>
+                            <font size="5">Web Development</font><br>
+                            <font size="">Web development refers in general to the tasks associated with developing websites for hosting via intranet or internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.</font>
+                        </td> 
+                    </tr>
+                </table>
+                <br> <br> <br>
+            </td>
+        </tr>
+    </table>
+
+    
+
+    <!-- Skills -->
+
+    <table width="100%" bgcolor="#93C572">
+        <tr>
+            <td>
+                <br>
+                <br>
+                <br>
+                <table id=Skills border="0" width="85%" cellspacing="15px" align="center">
+                    <tr align="center">
+                        <td colspan="2">
+                            <b><font face="Open sans" size="6" color="#000000">Skills</font></b>
+                            <hr align="center" width="7%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label><font size="5" color="#000000">HTML</font></label>
+                            <br>
+                            <progress value="95" max="100">90%</progress>
+                        </td>
+                        <td class="right-progress"><label><font size="5" color="#000000">CSS</font></label>
+                            <br>
+                            <progress value="70" max="100">80%</progress>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label><font size="5" color="#000000">C programming</font></label>
+                            <br>
+                            <progress value="90" max="100">80%</progress>
+                        </td>
+                        <td class="right-progress"><label><font size="5" color="#000000">DBMS</font></label>
+                            <br>
+                            <progress value="80" max="100">75%</progress>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <br>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Team -->
+    <table width="100%" bgcolor="#FFFFFF">
+        <tr>
+            <td>
+                <br><br><br><br>
+                <table id= Team border="0" width="85%" cellspacing="15px" align="center">
+                    <tr align="center">
+                        <td colspan="3">
+                            <font size="6">MEET THE TEAM</font>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td> 
+                            <img src="https://cdn.pixabay.com/photo/2021/01/04/10/41/icon-5887126_960_720.png" alt="user" width="30%"> <br> 
+                            <font size="6">RACHANA</font> <br> 
+                            <font size="4">App Developer</font>
+                        </td>
+                        <td> 
+                            <img src="https://cdn.pixabay.com/photo/2021/02/12/07/03/icon-6007530_640.png" alt="user" width="30%"> <br> 
+                            <font size="6">SARASWATHI</font> <br> 
+                            <font size="4">Digital Marketer</font>
+                        </td>
+                        <td> 
+                            <img src="https://cdn.pixabay.com/photo/2021/01/04/10/41/icon-5887126_960_720.png" alt="user" width="30%"> <br> 
+                            <font size="6">DEVAYANI</font> <br> 
+                            <font size="4">Web Developer</font>
+                        </td>
+                    </tr>
+                </table> <br><br><br><br>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Contact me -->
+    <form>
+        <table width="100%" bgcolor="#93C572">
+            <tr>
+                <td><br><br><br><br>
+                    <table id=Contact border="0" width="30%" align="center" cellpadding="15">
+                        <tr align="center">
+                            <td colspan="2"> 
+                                <b><font size="6">Contact Us</font></b>
+                                <hr align="center" width="10%">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <font color="white" size="4">Name:</font>
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <font color="white" size="4">Mobile:</font>
+                            </td>
+                            <td>
+                                <input type="number">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <font color="white" size="4">Message:</font>
+                            </td>
+                            <td>
+                                <textarea cols="20" rows="4"></textarea>
+                            </td>
+                        </tr>
+                        
+                        <tr align="center">
+                            <td colspan = "2" size="5">
+                                <input type="submit" value="Submit">
+                            </td>
+                        </tr>
+                    </table> <br><br><br><br>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Footer -->
+
+    <table width="100%">
+        <tr>
+            <td>
+                <table border="0" withd="85%" align="center" cellpadding="15">
+                    <tr align="center">
+                        <td>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Phone_icon.png" width="25%"> <br>
+                            <font size="6">Phone no.</font><br>
+                            <font size="5">9999900000</font>
+                        </td>
+                        <td>
+                            <img src="https://cdn0.iconfinder.com/data/icons/apple-apps/100/Apple_Mail-512.png" width="25%"> <br>
+                            <font size="6">Email</font><br>
+                            <font size="5">rachana@gmail.com</font>
+                        </td>
+                        <td>
+                            <img src="https://images.template.net/101912/location-icon-clipart-5z262.jpg" width="25%"> <br>
+                            <font size="6">Location</font><br>
+                            <font size="5">karnataka</font>
+                        </td>
+                    </tr>
+                    <tr align="center" bgcolor="#ffc0cb">
+                        <td colspan="3" >
+                            <font color="Black">
+                                copyright @  2023 | ExcelR Rachana GR
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body> 
+</html>

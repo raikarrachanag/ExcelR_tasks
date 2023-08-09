@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(68, 67, 67, 0.3), rgba(26, 23, 23, 0.15)),url(https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    background-color: rgb(169, 169, 169);
+    justify-content:space-between;
+    display: flex;
+}
+
+nav .logo{
+    width: 30%;
+    text-align: center;
+}
+
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav .menu a {
+    width: 25%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+
+nav .menu a:first-child{
+    color: green;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color:white;
+}
+
+section h3 {
+    font-size:  40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 2px 1px 4px black;
+    text-transform: uppercase;
+}
+
+section h1 {
+    font-size: 60px;
+    font-weight: 500;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 30px;
+    font-weight: 100;
+    text-shadow: 2px 1px 1px 4px black;
+    margin-bottom: 25px;
+}
+
+section a{
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size:  12px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section .btnone, .btntwo{
+    background-color: white;
+    color: black;
+    padding: 8px 30px;
+}
+
+.btnone:hover{
+    background-color: #00b894;
+    color: white;
+}
+.btntwo:hover{
+    background-color: #00b894;
+    color: green;
+}
+
+.change_content:after {
+    content: "";
+    animation: changeDestination 5s infinite linear;
+    color: #00b894;
+}
+
+@keyframes changeDestination {
+    0%{
+        content: "Delhi";
+    }
+    20%{
+        content: "Agra";
+    }
+    40%{
+        content: "Kedarnath";
+    }
+    60%{
+        content: "Kerala";
+    }
+    80%{
+        content: "Puri";
+    }
+    100%{
+        content: "Manipur";
+    }
+}

@@ -1,0 +1,16 @@
+h2{
+    font-size:larger; color:brown;
+}
+#Home{
+    text-align:center;color:aqua;
+}
+p.Right{
+    font-family: 'Courier New', Courier, monospace; color:chartreuse
+}
+*{
+    border: 1px solid black;
+}
+a[target="_parent"]
+{
+    background-color:blue;
+}
